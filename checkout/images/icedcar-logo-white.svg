@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" role="img" aria-labelledby="title">
+  <title id="title">IcedCar</title>
+  <g font-family="Arial Black,Arial,sans-serif" font-size="143" font-style="italic" font-weight="900" letter-spacing="-8">
+    <text x="12" y="139" fill="#ffffff">Iced</text>
+    <text x="292" y="139" fill="#ee5b1d">Car</text>
+  </g>
+  <path d="M294 160h241l-21 10H280z" fill="#ee5b1d"/>
+</svg>
