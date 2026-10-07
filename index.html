@@ -439,7 +439,7 @@ body.site-fix-lock{overflow:hidden!important}
   function goCheckout(){
     if(!cartItems.length){ showToast('Seu carrinho está vazio.'); return; }
     try{ localStorage.setItem('icedcar_order', JSON.stringify(cartItems)); }catch(err){}
-    window.location.href = CHECKOUT_URL;
+    window.location.href = CHECKOUT_URL + (window.location.search || '');
   }
 
   function addCurrentToCart(){
